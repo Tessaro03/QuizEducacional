@@ -5,7 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="paginaDeResultado" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="721.0" styleClass="anchorPane" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.Resultado">
+<AnchorPane fx:id="paginaDeResultado" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="535.0" prefWidth="721.0" styleClass="anchorPane" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/19" 
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.Resultado">
    <children>
       <Button fx:id="pagResposta" layoutX="530.0" layoutY="462.0" mnemonicParsing="false" onAction="#proximaPerg" prefHeight="45.0" prefWidth="167.0" styleClass="botaoMenu" text="PROXIMO" />
       <Label fx:id="informacoes" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="24.0" layoutY="82.0" prefHeight="358.0" prefWidth="657.0" textFill="#064a00" wrapText="true">

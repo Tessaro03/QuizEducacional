@@ -5,7 +5,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="733.0" styleClass="anchorPane" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.Regras">
    <children>
       <Button fx:id="menu" layoutX="14.0" layoutY="437.0" mnemonicParsing="false" onAction="#voltarMenu" prefHeight="63.0" prefWidth="174.0" styleClass="botaoResposta" text="MENU">
@@ -13,7 +12,37 @@
             <Font size="27.0" />
          </font>
       </Button>
-      <Label alignment="TOP_LEFT" layoutX="27.0" layoutY="25.0" prefHeight="331.0" prefWidth="679.0" textFill="#022207" wrapText="true">
+      <Label alignment="TOP_LEFT" layoutX="27.0" layoutY="89.0" prefHeight="82.0" prefWidth="679.0" text="As dicas irão ajudar a fornecer informações adicionais ou pistas que irão auxiliar os jogadores com as devidas perguntas. Essa opção só pode ser utilizada uma vez pelo usuário, deste jeito fazendo o usuário utilizá-la de forma estratégica junto com os demais recursos." textFill="#022207" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="27.0" layoutY="211.0" prefHeight="82.0" prefWidth="679.0" text="O auxiliar &quot;2/4&quot; irá fazer com que o jogador poderá excluir duas respostas das quatro alternativas ajudando o jogador a chegar na resposta certa. Contudo, poderá apenas ser usada uma só vez pelo jogador" textFill="#022207" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="27.0" layoutY="341.0" prefHeight="63.0" prefWidth="679.0" text="O “Pular” Pular dará a opção para o jogador avançar para a próxima pergunta, caso o jogador identifique a questão como difícil. Porém o jogador poderá desfrutar três vezes." textFill="#022207" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="293.0" layoutY="8.0" prefHeight="54.0" prefWidth="148.0" text="REGRAS" textFill="#002806" wrapText="true">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="27.0" layoutY="54.0" prefHeight="35.0" prefWidth="104.0" text="DICAS:" textFill="#022207" underline="true" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="27.0" layoutY="176.0" prefHeight="35.0" prefWidth="61.0" text="2/4:" textFill="#022207" underline="true" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="28.0" layoutY="306.0" prefHeight="35.0" prefWidth="82.0" text="PULAR:" textFill="#022207" underline="true" wrapText="true">
          <font>
             <Font size="24.0" />
          </font>
