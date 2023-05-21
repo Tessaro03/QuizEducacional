@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 public class QuizEducativo extends Application {
     
-    private static Scene sceneJanelaPerg, sceneJanelaResu, sceneJanelaMenu, sceneJanelaFinal;
+    private static Scene sceneJanelaPerg, sceneJanelaResu, sceneJanelaMenu, sceneJanelaFinal, sceneJanelaRegras, sceneJanelaCreditos;
     private static Stage primaryStage;
     private static int pontuacao;
     private static boolean desistir;
@@ -36,6 +36,8 @@ public class QuizEducativo extends Application {
         FXMLLoader janelaResu = new FXMLLoader(getClass().getResource("FXMLResultado.fxml"));
         FXMLLoader janelaMenu = new FXMLLoader(getClass().getResource("FXMLMenu.fxml"));
         FXMLLoader janelaFinal = new FXMLLoader(getClass().getResource("FXMLFinalizado.fxml"));
+        FXMLLoader janelaRegras = new FXMLLoader(getClass().getResource("FXMLRegras.fxml"));
+        FXMLLoader janelaCreditos = new FXMLLoader(getClass().getResource("FXMLCreditos.fxml"));
         
         primaryStage = stage;
         
@@ -45,13 +47,15 @@ public class QuizEducativo extends Application {
         Parent parentJanelaResu = janelaResu.load();
         Parent parentJanelaMenu = janelaMenu.load();
         Parent parentJanelaFinal = janelaFinal.load();
-        
+        Parent parentJanelaRegras = janelaRegras.load();
+        Parent parentJanelaCreditos = janelaCreditos.load();
         
         sceneJanelaPerg = new Scene(parentJanelaPerg, 721, 535);
         sceneJanelaResu = new Scene(parentJanelaResu, 721, 535);
         sceneJanelaMenu = new Scene(parentJanelaMenu, 600, 400);
         sceneJanelaFinal = new Scene(parentJanelaFinal, 721, 535);
-        
+        sceneJanelaRegras = new Scene(parentJanelaRegras, 721, 535);
+        sceneJanelaCreditos = new Scene(parentJanelaCreditos, 721, 535);
         
         stage.setScene(sceneJanelaMenu);
         stage.show();
@@ -70,6 +74,12 @@ public class QuizEducativo extends Application {
             case 4:
                 primaryStage.setScene(sceneJanelaFinal);
                 break;    
+            case 5:
+                primaryStage.setScene(sceneJanelaRegras);
+                break;
+            case 6:
+                primaryStage.setScene(sceneJanelaCreditos);
+                break;
         }
     }
     

@@ -5,19 +5,28 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.Menu">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="anchorPane" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.Menu">
    <children>
-      <Label alignment="TOP_CENTER" layoutX="242.0" layoutY="114.0" prefHeight="31.0" prefWidth="117.0" text="MENU">
+      <Label alignment="TOP_CENTER" layoutX="243.0" layoutY="113.0" prefHeight="31.0" prefWidth="117.0" styleClass="titulo" stylesheets="@menu.css" text="MENU" textFill="#046806">
          <font>
-            <Font size="25.0" />
+            <Font size="32.0" />
          </font>
       </Label>
-      <Button fx:id="iniciarButton" layoutX="210.0" layoutY="167.0" mnemonicParsing="false" onAction="#iniciar" prefHeight="49.0" prefWidth="180.0" text="JOGAR" />
-      <Button fx:id="regrasButton" layoutX="211.0" layoutY="228.0" mnemonicParsing="false" onAction="#regras" prefHeight="49.0" prefWidth="180.0" text="REGRAS" />
-      <Button fx:id="creditosButton" layoutX="211.0" layoutY="292.0" mnemonicParsing="false" onAction="#creditos" prefHeight="49.0" prefWidth="180.0" text="CREDITOS" />
-      <Label alignment="TOP_CENTER" layoutX="83.0" layoutY="36.0" prefHeight="58.0" prefWidth="434.0" text="Quiz Ambiental Educativo">
+      <Button fx:id="iniciarButton" layoutX="210.0" layoutY="176.0" mnemonicParsing="false" onAction="#iniciar" prefHeight="49.0" prefWidth="180.0" styleClass="botaoMenu" stylesheets="@menu.css" text="JOGAR">
          <font>
-            <Font size="36.0" />
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="regrasButton" layoutX="211.0" layoutY="237.0" mnemonicParsing="false" onAction="#regras" prefHeight="49.0" prefWidth="180.0" styleClass="botaoMenu" stylesheets="@menu.css" text="REGRAS">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="creditosButton" layoutX="210.0" layoutY="299.0" mnemonicParsing="false" onAction="#creditos" prefHeight="49.0" prefWidth="180.0" styleClass="botaoMenu" stylesheets="@menu.css" text="CREDITOS">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label alignment="TOP_CENTER" layoutX="84.0" layoutY="45.0" prefHeight="36.0" prefWidth="434.0" styleClass="titulo" stylesheets="@menu.css" text="QUIZ AMBIENTAL EDUCATIVO" textFill="#01510c">
+         <font>
+            <Font size="31.0" />
          </font>
       </Label>
    </children>

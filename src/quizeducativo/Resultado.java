@@ -18,7 +18,7 @@ public class Resultado implements Initializable{
     Pergunta pergunta4 = new Pergunta("A maior parte do nitrogênio que compõe as moléculas orgânicas ingressa nos ecossistemas pela ação de:" , "são microorganismos" , "algas marinhas" , "animais" ," bactérias" , "fungos" , "respostaC" ,"O nitrogênio atmosférico deve passar por um processo natural chamado fixação biológica de nitrogênio, realizado por bactérias. As mais famosas e utilizadas são as dos gêneros Rhizobium e Bradyrhizobium, que transformam o Nitrogênio em uma forma que pode ser usada na nutrição das plantas.");
 
 
-    
+
     @FXML
     private Button proximaPerg;
     @FXML

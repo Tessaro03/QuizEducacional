@@ -6,35 +6,65 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="721.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="721.0" styleClass="anchorPane" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.FXMLDocumentController">
     <children>
-      <Button fx:id="respostaA" layoutX="27.0" layoutY="224.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" />
-      <Button fx:id="respostaC" layoutX="27.0" layoutY="335.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" />
-      <Button fx:id="respostaB" layoutX="27.0" layoutY="277.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" />
-      <Button fx:id="respostaD" layoutX="27.0" layoutY="388.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" />
-      <Button fx:id="dicaButton" layoutX="561.0" layoutY="224.0" mnemonicParsing="false" onAction="#dica" prefHeight="61.0" prefWidth="124.0" text="DICA" />
-      <Button fx:id="metade" layoutX="561.0" layoutY="292.0" mnemonicParsing="false" onAction="#metade" prefHeight="61.0" prefWidth="124.0" text="50%" />
-      <Button fx:id="pular" layoutX="561.0" layoutY="364.0" mnemonicParsing="false" onAction="#pularPerg" prefHeight="61.0" prefWidth="124.0" text="PULAR" />
-      <Label fx:id="pontos" layoutX="651.0" layoutY="14.0" prefHeight="50.0" prefWidth="52.0" text="0">
+      <Button fx:id="respostaA" layoutX="27.0" layoutY="224.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" styleClass="botaoResposta">
          <font>
-            <Font size="34.0" />
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="respostaC" layoutX="27.0" layoutY="335.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" styleClass="botaoResposta">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="respostaB" layoutX="27.0" layoutY="277.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" styleClass="botaoResposta">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="respostaD" layoutX="27.0" layoutY="388.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" styleClass="botaoResposta">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="dicaButton" layoutX="549.0" layoutY="224.0" mnemonicParsing="false" onAction="#dica" prefHeight="56.0" prefWidth="124.0" styleClass="botaoResposta" text="DICA">
+         <font>
+            <Font size="26.0" />
+         </font></Button>
+      <Button fx:id="metade" layoutX="549.0" layoutY="294.0" mnemonicParsing="false" onAction="#metade" prefHeight="56.0" prefWidth="124.0" styleClass="botaoResposta" text="2/4">
+         <font>
+            <Font size="26.0" />
+         </font></Button>
+      <Button fx:id="pular" layoutX="549.0" layoutY="360.0" mnemonicParsing="false" onAction="#pularPerg" prefHeight="54.0" prefWidth="124.0" styleClass="botaoResposta" text="PULAR">
+         <font>
+            <Font size="26.0" />
+         </font></Button>
+      <Label fx:id="pontos" layoutX="634.0" layoutY="23.0" prefHeight="69.0" prefWidth="63.0" text="0" textFill="#004604">
+         <font>
+            <Font size="50.0" />
          </font>
       </Label>
-      <Label fx:id="dicaText" alignment="TOP_LEFT" layoutX="14.0" layoutY="156.0" prefHeight="25.0" prefWidth="597.0" wrapText="true">
+      <Label fx:id="dicaText" alignment="TOP_LEFT" layoutX="27.0" layoutY="141.0" prefHeight="25.0" prefWidth="597.0" wrapText="true">
          <font>
             <Font size="17.0" />
          </font>
       </Label>
       <AmbientLight color="CHARTREUSE" lightOn="true" />
-        <Label fx:id="pergunta" alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="140.0" prefWidth="621.0" textAlignment="CENTER" wrapText="true">
+        <Label fx:id="pergunta" alignment="TOP_LEFT" layoutX="27.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="130.0" prefWidth="541.0" wrapText="true">
          <font>
-            <Font size="26.0" />
+            <Font size="29.0" />
          </font>
       </Label>
-      <Button fx:id="pagResposta" layoutX="530.0" layoutY="462.0" mnemonicParsing="false" onAction="#pagResposta" prefHeight="45.0" prefWidth="167.0" text="PROXIMO &gt;" />
-      <Button fx:id="menuButton" layoutX="27.0" layoutY="462.0" mnemonicParsing="false" onAction="#menu" prefHeight="45.0" prefWidth="167.0" text="&lt; Voltar Menu" />
-      <Button fx:id="desistir" layoutX="277.0" layoutY="462.0" mnemonicParsing="false" onAction="#desistencia" prefHeight="45.0" prefWidth="167.0" text="DESISTI???" />
-      <Label fx:id="resultado" layoutX="230.0" layoutY="182.0" prefHeight="35.0" prefWidth="260.0" textAlignment="CENTER" wrapText="true">
+      <Button fx:id="pagResposta" layoutX="530.0" layoutY="462.0" mnemonicParsing="false" onAction="#pagResposta" prefHeight="45.0" prefWidth="167.0" styleClass="botaoMenu" text="PROXIMA">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Button fx:id="menuButton" layoutX="27.0" layoutY="462.0" mnemonicParsing="false" onAction="#menu" prefHeight="45.0" prefWidth="167.0" styleClass="botaoMenu" text="MENU">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Button fx:id="desistir" layoutX="277.0" layoutY="462.0" mnemonicParsing="false" onAction="#desistencia" prefHeight="45.0" prefWidth="167.0" styleClass="botaoMenu" text="DESISTI???">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Label fx:id="resultado" layoutX="231.0" layoutY="167.0" prefHeight="35.0" prefWidth="260.0" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="24.0" />
          </font>

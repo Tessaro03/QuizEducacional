@@ -1,0 +1,29 @@
+.anchorPane{
+    
+    -fx-background-color: linear-gradient(to right, #B3E9BA, #ffffff);
+    
+}
+
+.button.botaoMenu{
+    -fx-background-color: #ABFF98; 
+    -fx-border-radius: 10px;
+    -fx-text-fill: #046600;
+    -fx-border-color: #292929;
+}
+
+.button.botaoMenu:hover{
+    -fx-background-color: #ABEE98; 
+    -fx-text-fill: #FFFFFF;
+}
+
+.button.botaoResposta{
+    -fx-background-color: #DFFDDB; 
+    -fx-border-radius: 10px;
+    -fx-text-fill: #046600;
+    -fx-border-color: #292929;
+}
+
+.button.botaoResposta:hover{
+    -fx-background-color: #ABEE98; 
+    -fx-text-fill: #FFFFFF;
+}

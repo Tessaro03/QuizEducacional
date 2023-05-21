@@ -26,7 +26,7 @@ public class Menu implements Initializable{
 
     @FXML
     void creditos(ActionEvent event) {
-
+        QuizEducativo.changeScreen(6);
     }
 
     @FXML
@@ -36,7 +36,7 @@ public class Menu implements Initializable{
 
     @FXML
     void regras(ActionEvent event) {
-
+        QuizEducativo.changeScreen(5);
     }
 
 }
