@@ -8,19 +8,19 @@
 
 <AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="721.0" styleClass="anchorPane" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.FXMLDocumentController">
     <children>
-      <Button fx:id="respostaA" layoutX="27.0" layoutY="224.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" styleClass="botaoResposta">
+      <Button fx:id="respostaA" layoutX="27.0" layoutY="224.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="449.0" styleClass="botaoResposta">
          <font>
             <Font size="16.0" />
          </font></Button>
-      <Button fx:id="respostaC" layoutX="27.0" layoutY="335.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" styleClass="botaoResposta">
+      <Button fx:id="respostaC" layoutX="27.0" layoutY="335.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="449.0" styleClass="botaoResposta">
          <font>
             <Font size="16.0" />
          </font></Button>
-      <Button fx:id="respostaB" layoutX="27.0" layoutY="277.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" styleClass="botaoResposta">
+      <Button fx:id="respostaB" layoutX="27.0" layoutY="277.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="449.0" styleClass="botaoResposta">
          <font>
             <Font size="16.0" />
          </font></Button>
-      <Button fx:id="respostaD" layoutX="27.0" layoutY="388.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="333.0" styleClass="botaoResposta">
+      <Button fx:id="respostaD" layoutX="27.0" layoutY="388.0" mnemonicParsing="false" onAction="#resposta" prefHeight="45.0" prefWidth="449.0" styleClass="botaoResposta">
          <font>
             <Font size="16.0" />
          </font></Button>
@@ -41,7 +41,7 @@
             <Font size="50.0" />
          </font>
       </Label>
-      <Label fx:id="dicaText" alignment="TOP_LEFT" layoutX="27.0" layoutY="141.0" prefHeight="25.0" prefWidth="597.0" wrapText="true">
+      <Label fx:id="dicaText" alignment="TOP_LEFT" layoutX="27.0" layoutY="144.0" prefHeight="25.0" prefWidth="597.0" wrapText="true">
          <font>
             <Font size="17.0" />
          </font>
@@ -64,7 +64,7 @@
          <font>
             <Font size="22.0" />
          </font></Button>
-      <Label fx:id="resultado" layoutX="231.0" layoutY="167.0" prefHeight="35.0" prefWidth="260.0" textAlignment="CENTER" wrapText="true">
+      <Label fx:id="resultado" layoutX="231.0" layoutY="180.0" prefHeight="35.0" prefWidth="260.0" textAlignment="CENTER" wrapText="true">
          <font>
             <Font size="24.0" />
          </font>

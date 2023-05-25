@@ -10,7 +10,7 @@
       <Button fx:id="pagResposta" layoutX="530.0" layoutY="462.0" mnemonicParsing="false" onAction="#proximaPerg" prefHeight="45.0" prefWidth="167.0" styleClass="botaoMenu" text="PROXIMO" />
       <Label fx:id="informacoes" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="24.0" layoutY="82.0" prefHeight="358.0" prefWidth="657.0" textFill="#064a00" wrapText="true">
          <font>
-            <Font size="30.0" />
+            <Font size="20.0" />
          </font>
       </Label>
       <Label alignment="TOP_CENTER" layoutX="235.0" layoutY="14.0" prefHeight="45.0" prefWidth="251.0" text="INFORMAÇÃO" textAlignment="JUSTIFY" textFill="#074600" underline="true">

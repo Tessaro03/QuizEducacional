@@ -4,10 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Gabri/OneDrive/Documentos/NetBeansProjects/QuizEducacional/src/quizeducativo/Menu.java</file>
-            <file>file:/C:/Users/Gabri/OneDrive/Documentos/NetBeansProjects/QuizEducacional/src/quizeducativo/Regras.java</file>
-            <file>file:/C:/Users/Gabri/OneDrive/Documentos/NetBeansProjects/QuizEducacional/src/quizeducativo/Creditos.java</file>
-            <file>file:/C:/Users/Gabri/OneDrive/Documentos/NetBeansProjects/QuizEducacional/src/quizeducativo/Pergunta.java</file>
-            <file>file:/C:/Users/Gabri/OneDrive/Documentos/NetBeansProjects/QuizEducacional/src/quizeducativo/QuizEducativo.java</file>
+            <file>file:/C:/Users/Gabri/OneDrive/Documentos/NetBeansProjects/QuizEducacional/src/quizeducativo/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/Gabri/OneDrive/Documentos/NetBeansProjects/QuizEducacional/src/quizeducativo/Finalizado.java</file>
+            <file>file:/C:/Users/Gabri/OneDrive/Documentos/NetBeansProjects/QuizEducacional/src/quizeducativo/Resultado.java</file>
         </group>
     </open-files>
 </project-private>

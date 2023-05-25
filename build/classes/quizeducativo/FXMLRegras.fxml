@@ -5,8 +5,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="733.0" styleClass="anchorPane" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizeducativo.Regras">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="733.0" 
+            styleClass="anchorPane" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="quizeducativo.Regras">
    <children>
+       
       <Button fx:id="menu" layoutX="14.0" layoutY="437.0" mnemonicParsing="false" onAction="#voltarMenu" prefHeight="63.0" prefWidth="174.0" styleClass="botaoResposta" text="MENU">
          <font>
             <Font size="27.0" />
